@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.logwet.lavapool_juicer.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "client.DebugScreenOverlayMixin",
+    "client.IntegratedServerMixin"
+  ],
+  "server": [
+    "server.DedicatedServerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
