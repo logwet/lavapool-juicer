@@ -25,8 +25,6 @@ public class LavapoolJuicer implements ModInitializer {
         LOGGER.log(level, "[" + MODID + " v" + VERSION + "] " + message);
     }
 
-    public static void onServerStart(MinecraftServer minecraftServer) {}
-
     @Override
     public void onInitialize() {
         log(Level.INFO, "Main class initialized!");

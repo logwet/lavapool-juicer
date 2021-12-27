@@ -4,13 +4,12 @@
   "package": "me.logwet.lavapool_juicer.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "common.BiomeDefaultFeaturesMixin"
   ],
   "client": [
-    "client.DebugScreenOverlayMixin",
-    "client.IntegratedServerMixin"
+    "client.DebugScreenOverlayMixin"
   ],
   "server": [
-    "server.DedicatedServerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
