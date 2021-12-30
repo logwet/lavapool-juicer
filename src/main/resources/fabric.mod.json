@@ -20,10 +20,8 @@
       "me.logwet.lavapool_juicer.LavapoolJuicer"
     ],
     "client": [
-      "me.logwet.lavapool_juicer.LavapoolJuicerClient"
     ],
     "server": [
-      "me.logwet.lavapool_juicer.LavapoolJuicerServer"
     ]
   },
   "mixins": [
